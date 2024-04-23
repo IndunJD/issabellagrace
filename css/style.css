@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+
+@import url("./sections//header.css");
+
+:root {
+  --main-font: "Raleway", sans-serif;
+  --headings-font: "Italiana", sans-serif;
+  --number-font: "Josefin Slab", serif;
+
+  --primary-color: #fff;
+  --bg-black: #101010;
+
+  --black-800: #171717;
+  --black-700: #1f1f1f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-black);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+li {
+    list-style-type: none;
+}
