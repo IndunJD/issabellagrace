@@ -1,0 +1,62 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact__image-container {
+  object-fit: contain;
+}
+
+.contact-text h3 {
+  color: antiquewhite;
+  font-size: 56px;
+}
+
+.contact-text p {
+  color: aliceblue;
+}
+
+.contact-form input {
+    background: transparent;
+    padding: 20px 10px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+}
+
+.contact-form input::placeholder {
+    color: green;
+}
+
+.contact-form input:focus {
+    border: 1px solid blue;
+}
+
+.contact-form > p {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+.contact-form button {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  outline: none;
+}

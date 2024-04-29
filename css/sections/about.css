@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 100px;
+}
+
+.about h1 {
+  color: var(--primary-color);
+  display: block;
+  position: absolute;
+  top: 5%;
+  left: 38%;
+  font-size: 100px;
+  font-family: var(--headings-font);
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about__description {
+  padding: 0 50px;
+}
+
+.about__description p {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-family: var(--main-font);
+  font-weight: 200;
+}
+
+.about__description-middle {
+    padding: 20px 0;
+}
+

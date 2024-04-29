@@ -2,7 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
 
-@import url("./sections//header.css");
+@import url("./sections/header.css");
+@import url("./sections/hero.css");
+@import url("./sections/about.css");
+@import url("./sections/goal.css");
 
 :root {
   --main-font: "Raleway", sans-serif;
@@ -24,15 +27,15 @@
 }
 
 body {
-    background-color: var(--bg-black);
-    margin: 0 auto;
+  background-color: var(--bg-black);
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
-    color: var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }

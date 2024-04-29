@@ -11,9 +11,9 @@
 }
 
 .header__menu {
-    display: flex;
-    gap: 30px;
-    font-family: var(--headings-font);
+  display: flex;
+  gap: 30px;
+  font-family: var(--headings-font);
 }
 
 .header__menu-mobile {
@@ -41,7 +41,7 @@
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  color: rgb(255, 171, 35)
+  color: rgb(255, 171, 35);
 }
 
 .menu ul li a:hover {
@@ -96,6 +96,4 @@
     display: contents;
     cursor: pointer;
   }
-
 }
-
